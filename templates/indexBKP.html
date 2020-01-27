@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<!--BEGIN Django framework directives-->
+{% load staticfiles %}
+<!--END Django framework directives  -->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Valore I/O, Software Engineering Company</title>
+    <meta name="description" content="IT Design, Training, Infra, Agile web programming tools & Databases, Sustainable Strategic Management of IT">
+    <meta name="keywords" content="IT,Design,Infra,Agile,web,Training,programming,tools,Databases,Sustainable,Strategic,Management,IT,AWS Cloud Infrastructure,AWS Cloud Application,SAP Infrastructure,Web & Mobile Development,Sustainable planning of the IT,Training,Treinamento,Consultoria de TI,Desenvolvimento,Terceirizacao de TI,Instalacao Software,Manutencao de PC e Server,Auditoria de TI,Suporte, curso python presencial em SP">
+    <meta name="author" content="Valore I/O">
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta name="revisit-after" content="7 days"/>
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/animate.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/font-awesome.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/nexus.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/responsive.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/custom.css" %}">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,300,400" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
+    <meta property="og:title" content="Valore I/O"/>
+    <meta property="og:description" content="IT Design, Training, Infra, Agile web programming tools & Databases, Sustainable Strategic Management of IT"/>
+    <meta property="og:url" content="http://www.valore.io/"/>
+    <meta property="og:site_name" content="Valore I/O">
+    <meta property="og:image" content="http://www.valore.io/static/assets/img/ValoreIO-DarkRed.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static "assets/img/favicon-16x16.png" %}">
+    <link rel="canonical" href="http://www.valore.io/"/>
+    <style>
+    custline-through {
+        text-decoration:line-through;
+    }
+    custunderline {
+        text-decoration:underline;
+    }
+    .boldcust {
+        font-weight:bold;
+    }
+    .italicust {
+        font-style:italic;
+    }
+    </style>
+</head>
+<body>
+    <!-- === BEGIN SOCIAL ICONS === -->
+    <div id="social" class="visible-lg">
+        <ul class="social-icons pull-left hidden-xs">
+        </ul>
+        <ul class="social-icons pull-right hidden-xs">
+            <li class="social-email">
+                <a href="mailto:comercial@valore.io" target="_blank" title="comercial@valore.io"></a>
+            </li>
+            <li class="social-linkedin">
+                <a href="https://www.linkedin.com/company/valore-i-o" target="_blank" title="Linkedin"></a>
+            </li>
+            <li class="social-youtube">
+                <a href="https://www.youtube.com/channel/UCp1mPzihBhFuwkhClGdReFQ" target="_blank" title="Youtube"></a>
+            </li>
+            <li class="social-github">
+                <a href="https://github.com/valoreio/prod" target="_blank" title="Github"></a>
+            </li>
+        </ul>
+    </div>
+    <!-- === END SOCIAL ICONS === -->
+    <!-- === BEGIN HEADER === -->
+    <div id="header" style="background-position: 50% 0%; height:100%;" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <!-- Logo -->
+                <div class="logo col-md-12 row">
+                    <a href="http://www.valore.io" title="">
+                        <img src="{% static "assets/img/ValoreIO.png" %}" alt="Logo"/>
+                    </a>
+                </div>
+                <!-- End Logo -->
+            </div>
+            <!-- Top Menu -->
+            <div id="hornav" class="row text-light">
+                <div class="col-md-12">
+                    <div class="text-center visible-lg">
+                        <ul id="hornavmenu" class="nav navbar-nav">
+                            <li>
+                                <a href="http://www.valore.io" class="fa-home active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#courses" class="fa-comment">Courses</a>
+                            </li>
+                            <li>
+                                <a href="#hiring" class="fa-font">R&S</a>
+                            </li>
+                            <li>
+                                <a href="#latest_news" class="fa-font">Latest News</a>
+                            </li>
+                            <li>
+                                <a href="#whoweare" class="fa-comment">Who we are</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Menu -->
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- === END HEADER === -->
+    <!-- === BEGIN CONTENT === -->
+        <div id="welcome" class="background-white">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <!-- Main Text -->
+                    <div class="col-md-12">
+                        <h2 class="text-center article-title">Welcome to Valore I/O</h2>
+                        <p class="text-center">
+                        Valore I/O is a almost 100% software engineering company. Based in Sao Paulo, SP/Brazil
+                        <p>
+                        <p class="text-center">
+                        We are here to help you and too provide outstanding service and honest advice.
+                        <img class="fadeInLeft animate" alt="ValoreIO large logo" src="{% static "assets/img/ValoreIOlarge.png" %}" style="display: block; margin-left: auto; margin-right: auto; margin-top: 40px;">
+                        <p class="text-center">
+                        "Simplicity is the ultimate sophistication" Leonardo da Vinci
+                        <br>
+                        and expanding on what Leonardo said, delivering value with even lower costs.
+                        <br>
+                        <a href="" title="scan this 2D barcode and load the valore.io enterprise portal in your mobile device">
+                          <img class="fadeInRight animate" src="{% static "assets/img/QRcode-URLValoreIO.png" %}" alt="QRcode" style="max-width: 150px"/>
+                        </a>
+                        <br>valore.io VCard
+                        </p>
+                    </div>
+                    <!-- End Main Text -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Begin Main text -->
+        <div id="maintext" class="parallax-bg2" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row margin-top-40">
+                </div>
+            </div>
+        </div>
+        <!-- End Main text -->
+
+        <!-- Icons -->
+        <div id="icons" class="parallax-bg1 text-light background-primary" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <!-- Icons -->
+                    <div class="col-md-4 text-center animate fadeInLeft">
+                        <i class="fa-crosshairs fa-3x color-primary-lighter"></i>
+                        <h2 class="padding-top-10">Innovate</h2>
+                        <p>Incremental innovation</p>
+                    </div>
+                    <div class="col-md-4 text-center animate fadeIn">
+                        <i class="fa-puzzle-piece fa-3x color-primary-lighter"></i>
+                        <h2 class="padding-top-10">Simplicity</h2>
+                        <p>Skills to give you a holistic solution of business based on internet using open source and proprietary technologies</p>
+                    </div>
+                    <div class="col-md-4 text-center animate fadeInRight">
+                        <i class="fa-music fa-3x color-primary-lighter"></i>
+                        <h2 class="padding-top-10">Value</h2>
+                        <p>delivering value with even lower costs</p>
+                    </div>
+                    <!-- End Icons -->
+                </div>
+            </div>
+        </div>
+        <!-- End Icons -->
+
+        <!-- Courses -->
+        <div id="courses" class="background-white">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <div class="col-md-12">
+                        <h2 class="text-center article-title">Curso Analista Especialista SAP Basis I - Presencial</h2>
+                        <p>
+                        <h3 class="text-center article-title">
+<p><b>Status</b>:<a href="#contact"><custunderline>Avise-me</custunderline></a></p>
+<p><b>Carga hor&aacute;ria</b>: 18 horas, das 08:30 &agrave;s 12:30 e das 13:30 &agrave;s 18:30</p>
+<p><b>Datas</b>: em breve(S&aacute;bado) e (Domingo)</p>
+<p><b>Local</b>: Alameda Campinas, 1213 Cobertura, Jardins, S&atilde;o Paulo/SP. Localizado a apenas 900m do metr&ocirc; Trianon MASP</p>
+<p><b>Investimento</b>:<a href="#contact"><custunderline>registre-se</custunderline></a> e verifique os descontos aplicados</p>
+<p><b>Programa do curso:</b><a href="#contact"><custunderline>registre-se</custunderline></a> e obtenha o programa completo</p>
+<p><b>Metodologia</b>: Teoria e aulas pr&aacute;ticas m&atilde;o na massa</p>
+<p><b>Instrutor</b>: Marcos Aurelio Barranco <a href="https://www.linkedin.com/in/marcosaureliobarranco/" target="_blank"><custunderline>LinkedIn</custunderline></a></p>
+<p><b>Pr&eacute;-requisito</b>: Notebook e carregador</p>
+<p><b>Outros diferenciais</b>: Local super agradavel, Apostila digital e impressa em cores para anotações, Artigo complementar nível MBA, Coffee Break Top, Certificado digital após preenchimento da pesquisa</p>
+<p><a href="#contact"><custunderline>Contrate</custunderline></a> e garanta a sua participação em nosso formulário</p>
+<p>Agenda e vagas super limitadas</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="treinamentopython" class="background-white">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <div class="col-md-12">
+                        <h2 class="text-center article-title">Curso Python Stack Software Engineer I - Presencial</h2>
+                        <p>
+                        <h3 class="text-center article-title">
+<p><b>Status</b>:<a href="#contact"><custunderline>Avise-me</custunderline></a></p>
+<p><b>Foco</b>:
+Adquirir novos conhecimentos em Python de forma clara, organizada e consolidada por meio de teoria e atividades praticas. Levar inova&ccedil;&atilde;o para a empresa que voc&ecirc; veste a camisa. Um lindo caminho a seguir</p>
+<p><b>Carga hor&aacute;ria</b>: 18 horas, das 08:30 &agrave;s 12:30 e das 13:30 &agrave;s 18:30</p>
+<p><b>Datas</b>: em breve(S&aacute;bado) e (Domingo)</p>
+<p><b>Local</b>: Alameda Campinas, 1213 Cobertura, Jardins, S&atilde;o Paulo/SP. Localizado a apenas 900m do metr&ocirc; Trianon MASP</p>
+<p><b>Investimento</b>:<a href="#contact"><custunderline>registre-se</custunderline></a> e verifique os descontos aplicados</p>
+<p><b>Programa do curso:</b><a href="#contact"><custunderline>registre-se</custunderline></a> e obtenha o programa completo</p>
+<p><b>Metodologia</b>: Teoria e aulas pr&aacute;ticas m&atilde;o na massa</p>
+<p><b>Instrutor</b>: Marcos Aurelio Barranco <a href="https://www.linkedin.com/in/marcosaureliobarranco/" target="_blank"><custunderline>LinkedIn</custunderline></a></p>
+<p><b>Pr&eacute;-requisito</b>: Notebook e carregador</p>
+<p><b>Outros diferenciais</b>: Local super agradavel, Apostila digital e impressa em cores para anotações, Artigo complementar nível MBA, Coffee Break Top, Certificado digital após preenchimento da pesquisa. Além do próprio Python, utilizar as ferramentas mais importantes do Stack Python e amplamente aceitas nas empresas</p>
+<p><a href="#contact"><custunderline>Contrate</custunderline></a> e garanta a sua participação em nosso formulário</p>
+<p>Agenda e vagas super limitadas</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="treinamentopythonoop" class="background-white">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <div class="col-md-12">
+                        <h2 class="text-center article-title">Curso Python Stack Software Engineer - OOP - Presencial</h2>
+                        <p>
+                        <h3 class="text-center article-title">
+<p><b>Status</b>:<a href="#contact"><custunderline>Avise-me</custunderline></a></p>
+<p><b>Foco</b>:
+Adquirir novos conhecimentos em OOP do Python de forma clara, organizada e consolidada por meio de teoria e atividades praticas. Levar inovação para a empresa que você veste a camisa. Um lindo caminho a seguir</p>
+<p><b>Carga hor&aacute;ria</b>: 18 horas, das 08:30 &agrave;s 12:30 e das 13:30 &agrave;s 18:30</p>
+<p><b>Data</b>: em breve(S&aacute;bado)</p>
+<p><b>Local</b>: Alameda Campinas, 1213 Cobertura, Jardins, S&atilde;o Paulo/SP. Localizado a apenas 900m do metr&ocirc; Trianon MASP</p>
+<p><b>Investimento</b>:<a href="#contact"><custunderline>registre-se</custunderline></a> e verifique os descontos aplicados</p>
+<p><b>Programa do curso:</b><a href="#contact"><custunderline>registre-se</custunderline></a> e obtenha o programa completo</p>
+<p><b>Metodologia</b>: Teoria e aulas pr&aacute;ticas m&atilde;o na massa</p>
+<p><b>Instrutor</b>: Marcos Aurelio Barranco <a href="https://www.linkedin.com/in/marcosaureliobarranco/" target="_blank"><custunderline>LinkedIn</custunderline></a></p>
+<p><b>Pr&eacute;-requisito</b>: Notebook e carregador</p>
+<p><b>Outros diferenciais</b>: Local super agradavel, Apostila digital e impressa em cores para anotações, Artigo complementar nível MBA, Coffee Break Top, Certificado digital após preenchimento da pesquisa. Além do próprio Python, utilizar as ferramentas mais importantes do Stack Python e amplamente aceitas nas empresas</p>
+<p><a href="#contact"><custunderline>Contrate</custunderline></a> e garanta a sua participação em nosso formulário</p>
+<p>Agenda e vagas super limitadas</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="treinamentopythontornado" class="background-white">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <div class="col-md-12">
+                        <h2 class="text-center article-title">Curso Python Stack Software Engineer - Processos, Threads e Tornado Websocket - Presencial</h2>
+                        <p>
+                        <h3 class="text-center article-title">
+<p><b>Status</b>:<a href="#contact"><custunderline>Avise-me</custunderline></a></p>
+<p><b>Foco</b>:
+Adquirir novos conhecimentos em Processos, Threads e Tornado Websocket de forma clara, organizada e consolidada por meio de teoria e atividades praticas. Levar inovação para a empresa que você veste a camisa. Um lindo caminho a seguir</p>
+<p><b>Carga hor&aacute;ria</b>: 18 horas, das 08:30 &agrave;s 12:30 e das 13:30 &agrave;s 18:30</p>
+<p><b>Data</b>: em breve(S&aacute;bado)</p>
+<p><b>Local</b>: Alameda Campinas, 1213 Cobertura, Jardins, S&atilde;o Paulo/SP. Localizado a apenas 900m do metr&ocirc; Trianon MASP</p>
+<p><b>Investimento</b>:<a href="#contact"><custunderline>registre-se</custunderline></a> e verifique os descontos aplicados</p>
+<p><b>Programa do curso:</b><a href="#contact"><custunderline>registre-se</custunderline></a> e obtenha o programa completo</p>
+<p><b>Metodologia</b>: Teoria e aulas pr&aacute;ticas m&atilde;o na massa</p>
+<p><b>Instrutor</b>: Marcos Aurelio Barranco <a href="https://www.linkedin.com/in/marcosaureliobarranco/" target="_blank"><custunderline>LinkedIn</custunderline></a></p>
+<p><b>Pr&eacute;-requisito</b>: Notebook e carregador</p>
+<p><b>Outros diferenciais</b>: Local super agradavel, Apostila digital e impressa em cores para anotações, Artigo complementar nível MBA, Coffee Break Top, Certificado digital após preenchimento da pesquisa. Além do próprio Python, utilizar as ferramentas mais importantes do Stack Python e amplamente aceitas nas empresas</p>
+<p><a href="#contact"><custunderline>Contrate</custunderline></a> e garanta a sua participação em nosso formulário</p>
+<p>Agenda e vagas super limitadas</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="treinamentomktdigital" class="background-white">
+            <div class="container">
+                <div class="row margin-vert-40">
+                    <div class="col-md-12">
+                        <h2 class="text-center article-title">Analista Marketing digital com: Google AdWords & Analytics, Linkedin Marketing Solutions, Facebook Promover - Presencial</h2>
+                        <p>
+                        <h3 class="text-center article-title">
+<p><b>Status</b>:<a href="#contact"><custunderline>Avise-me</custunderline></a></p>
+<p><b>Foco</b>:
+Gerar vendas sustentáveis com publicidade on-line. Ganhar grande visibilidade dentro da economia digital</p>
+<p><b>Carga hor&aacute;ria</b>: 9 horas, das 08:30 &agrave;s 12:30 e das 13:30 &agrave;s 18:30</p>
+<p><b>Data</b>: em breve(S&aacute;bado)</p>
+<p><b>Local</b>: Alameda Campinas, 1213 Cobertura, Jardins, S&atilde;o Paulo/SP. Localizado a apenas 900m do metr&ocirc; Trianon MASP</p>
+<p><b>Investimento</b>:<a href="#contact"><custunderline>registre-se</custunderline></a> e verifique os descontos aplicados</p>
+<p><b>Programa do curso:</b><a href="#contact"><custunderline>registre-se</custunderline></a> e obtenha o programa completo</p>
+<p><b>Metodologia</b>: Aulas pr&aacute;ticas m&atilde;o na massa</p>
+<p><b>Instrutor</b>: Marcos Aurelio Barranco <a href="https://www.linkedin.com/in/marcosaureliobarranco/" target="_blank"><custunderline>LinkedIn</custunderline></a></p>
+<p><b>Pr&eacute;-requisitos</b>: Notebook e carregador, Cartao de credito para cadastro no Google/Facebook/Linkedin</p>
+<p><b>Outros diferenciais</b>: Local super agradavel, Coffee Break Top, Certificado digital ap&oacute;s preenchimento da pesquisa. Foco nas principais ferramentas(Conteúdo, AdWords, HTML, Analytics, Linkedin Campain, Facebook Promove). Porém, iremos conhecer rapidamente outras 44+ </p>
+<p><a href="#contact"><custunderline>Contrate</custunderline></a> e garanta a sua participação em nosso formulário</p>
+<p>Agenda e vagas super limitadas</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Courses -->
+
+        <!-- Whoweare -->
+        <div id="whoweare" class="parallax-bg1 text-light background-primary" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-12 margin-vert-40">
+                     <h2 class="animate fadeIn" style="text-align: center;">Who we are</h2>
+                     <hr>
+                        <div class="row margin-vert-40">
+                           <!-- Icons -->
+                           <div class="col-md-4 text-center animate fadeInLeft">
+                               <i class="fa-puzzle-piece fa-3x color-primary-lighter"></i>
+                               <h2 class="padding-top-10">AI asynchronously (CEO)</h2>
+                               <p>sorry but I'm busy searching for patterns, points outside the curve, techniques to, matches, </p>
+                           </div>
+                           <div class="col-md-4 text-center animate fadeIn">
+                               <i class="fa-puzzle-piece fa-3x color-primary-lighter"></i>
+                               <h2 class="padding-top-10">AI non-blocking (COO)</h2>
+                               <p>Designing and implementing business operations. Developing and cascading the organization's strategy</p>
+                           </div>
+                           <div class="col-md-4 text-center animate fadeInRight">
+                               <i class="fa-puzzle-piece fa-3x color-primary-lighter"></i>
+                               <h2 class="padding-top-10">Marcos Aurelio Barranco (CTO)</h2>
+			       <p><a href="https://www.linkedin.com/in/marcosaureliobarranco/" target="_blank"><custunderline>LinkedIn</custunderline></a></p>
+
+                           </div>
+                           <!-- End Icons -->
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Whoweare -->
+
+        <!-- Portfolio -->
+        <div id="porfolio" class="parallax-bg2" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row margin-top-40">
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio -->
+
+        <!-- Hiring -->
+        <div id="hiring" class="parallax-bg3 text-light" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-12 margin-vert-40">
+                     <h2 class="animate fadeIn" style="text-align: center;">We are Hiring!</h2>
+                     <hr>
+                     <p class="animate fadeIn" style="text-align: center;">
+                        Business Partner with sales skills<br>
+                        Business Development Partner with sales skills<br>
+                        HR Business Partner with sales skills
+                     </p>
+                     <hr>
+                     <h2 class="animate fadeIn" style="text-align: center;">Send us your r&eacute;sum&eacute; or leave a message in our form</h2>
+                   </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- End Hiring -->
+
+        <!-- Contact -->
+        <div id="contact">
+            <div class="container background-white">
+                <div class="row margin-vert-30">
+                    <!-- Main Column -->
+                    <div class="col-md-9">
+                        <!-- Main Content -->
+                        <div class="headline">
+                            <h2 class="margin-bottom-20">It's your form</h2>
+                        </div>
+                        <p>leave us a message or confirm your course and asap we will return you
+                        </p>
+                        <!-- Form -->
+                        <form action="/contato/" method="POST" onsubmit="return AvoidSpamBot();" accept-charset='utf-8'>
+                           <!-- Inicio monta o form Django -->
+                           {% csrf_token %}
+                           {% for field in form %}
+                               {{ field.label_tag }}
+                               <div class="row margin-bottom-20">
+                                   <div class="col-md-6 col-md-offset-0">
+                                      {{ field }}
+                                      <!--  add span tag to show onkeyup result. forms.py has setups on mensagem field-->
+                                      {% if "id_mensagem" in field.id_for_label %}
+                                          <span id="mensagemcounterfirst"></span>/<span id="mensagemcounterfinal"></span>
+                                      {% endif %}
+                                   </div>
+                               </div>
+                           {% endfor %}
+                           <!-- Fim monta o form Django -->
+                           <!-- Start - Avoid Spam Bot -->
+                           <div style="display:none;">
+                               <label>Keep this field empty. I mean, blank</label>
+                               <input type="text" name="SpamBotField" id="SpamBotField"/>
+                           </div>
+                           <!-- End - Avoid Spam Bot -->
+                           <!-- Inicio mensagem Django de sucesso após submit -->
+			   {% if messages %}
+			       <ul class="messages">
+			       {% for message in messages %}
+               		           <span class="color-green"><li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li></span>
+			       {% endfor %}
+			       </ul>
+			   {% endif %}
+                           <!-- Fim mensagem Django de sucesso após submit -->
+                           <span class="color-red">*Required fields</span><br>
+                           <button type="submit" class="btn btn-primary">Send</button>
+                           <p><span class="color-green">beyond of this contact, automatically an email will be sent to Valor I/O to remind us and reply you quickly</span></p>
+                           <p><div class="boldcust">Termo de Participação e Privacidade:</div> Acreditamos na ética e na segurança da informação que você irá aqui disponibilizar. Solicitamos o mínimo de informação pessoal necessária, protegendo os seus dados sensíveis. A nossa infraestrutura em Cloud e os softwares utilizados, são robustos e estão atualizados na última versão disponível, oferecendo uma camada extra de segurança. A Valore I/O não utilizará as informações pessoais a nós confiadas, a fim de evitar o uso indevido dos dados por terceiros, com fins comerciais, de marketing ou utilizados de maneira indevida.
+                        </form>
+                        <p>
+                        <!-- End Form -->
+                        <!-- End Main Content -->
+                    </div>
+                    <!-- End Main Column -->
+                    <!-- Side Column -->
+                    <div class="col-md-3">
+                        <!-- Recent Posts -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Valore I/O</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>Below our extra infos:</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fa-phone color-primary"></i>98333-6020</li>
+                                    <li><i class="fa-envelope color-primary"></i>comercial@valore.io</li>
+				    <!--  <li><i class="fa-envelope color-primary"></i>1stvaloreio@gmail.com</li>  -->
+                                    <li><i class="fa-home color-primary"></i>São Paulo/SP/Brazil</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><strong class="color-primary">Monday-Friday:</strong> 9:00-18:00</li>
+                                    <li><strong class="color-primary">Saturday:</strong> Closed</li>
+                                    <li><strong class="color-primary">Sunday:</strong> Closed</li>
+                                </ul>
+                                <div class="text-center animate fadeInUp">
+                                    <a href="" title="scan this 2D barcode and load the valore.io VCard in your mobile device">
+                                       <img src="{% static "assets/img/QRcode-ValoreIOcontact.png" %}" alt="QRcode" style="width: 70%; height: 70%" />
+                                    </a>
+                                    <p>valore.io contact VCard</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End recent Posts -->
+                        <!-- About -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">About</h3>
+                            </div>
+                            <div class="panel-body">
+                                IT Design, Training, Infra, Agile web programming tools and Databases, Sustainable Strategic Management of IT.
+                                <br> Based in Sao Paulo, SP/Brazil
+                            </div>
+                        </div>
+                        <!-- End About -->
+                    </div>
+                    <!-- End Side Column -->
+                </div>
+            </div>
+        </div>
+        <!-- End Content -->
+
+        <!-- Address -->
+        <div id="address" class="parallax-bg2" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row margin-top-40">
+                </div>
+            </div>
+        </div>
+        <!-- End Address -->
+
+    <!-- === END CONTENT === -->
+
+    <!-- === BEGIN FOOTER === -->
+    <div id="latest_news" class="background-dark text-light">
+        <div class="container padding-vert-30">
+            <div class="row">
+                <!-- Latest News -->
+                <div class="col-md-6 margin-bottom-30">
+                    <h3 class="margin-bottom-10">Latest News</h3>
+<p>May 9st, 2018<br><a class="nobold" href="https://www.slideshare.net/ValoreIO/coaching-e-a-carruagem" target="_blank">[DOC] Coaching e a carruagem</a></p>
+<p>Oct 17st, 2017<br><a class="nobold" href="https://www.slideshare.net/ValoreIO/saindo-da-caixa-para-criar-e-inovar-86971102" target="_blank">[DOC] Saindo da caixa para criar e inovar</a></p>
+<p>Aug 13rd, 2017<br><a class="nobold" href="https://youtu.be/hpXXQokNFMY" target="_blank">[VID] Criatividade e Inova&ccedil;&atilde;o: Reconhecendo as oportunidades</a></p>
+<p>Aug 13rd, 2017<br><a class="nobold" href="https://www.slideshare.net/ValoreIO/criatividade-e-inovao-reconhecendo-as-oportunidades-86970462" target="_blank">[DOC] Criatividade e Inova&ccedil;&atilde;o: Reconhecendo as oportunidades</a></p>
+<p>Jul 16th, 2017<br><a class="nobold" href="https://youtu.be/qP1kqn1JMGQ" target="_blank">[VID] A import&acirc;ncia da mensagem de 30 segundos</a></p>
+<p>May 30th, 2017<br><a class="nobold" href="https://www.slideshare.net/ValoreIO/no-importa-como-um-aplicativo-mobile-foi-criado" target="_blank">[DOC] N&atilde;o importa como um aplicativo mobile foi criado. At&eacute; que ponto a afirma&ccedil;&atilde;o &eacute; verdadeira?</a></p>
+<p>February 3rd, 2017<br><a class="nobold" href="" target="_blank">Today valore.io is the newest enterprise portal running on Python and Django framework over uWSGI</a></p>
+<p>January 21st, 2017<br><a class="nobold" href="http://www.slideshare.net/ValoreIO/a-lgica-do-python-e-seus-termos" target="_blank">[DOC] A logica do Python e seus termos: Python, CPython, Pythonico, Cython (version in portuguese)</a></p>
+<p>December 20th, 2016<br><a class="nobold" href="https://github.com/valoreio/prod/blob/master/FinancialFunctions.py" target="_blank">[DOC] Python program to calculate: n, i, PV, PMT, FV</a></p>
+<p>December 5th, 2016<br><a class="nobold" href="http://www.slideshare.net/ValoreIO/como-ajustar-a-acentuao-portuguesa-em-containers-do-docker" target="_blank">[DOC] Como ajustar a acentuação portuguesa em containers do Docker</a></p>
+<p>November 13rd, 2016<br><a class="nobold" href="http://www.slideshare.net/ValoreIO/hp-12c-wifi-71912295" target="_blank">[DOC] HP 12C Wifi (versions in portuguese, english and spanish)</a></p>
+<p>October 7th, 2016<br><a class="nobold" href="http://www.slideshare.net/MarcosAurelioBarranc/itmanagementportugueseversion-66852562" target="_blank">[DOC] IT Management (version in portuguese)</a></p>
+<p>October 1st, 2015<br><a class="nobold" href="http://www.slideshare.net/ValoreIO/pdf-apresentao-valore-io-86974121" target="_blank">[DOC] Apresenta&ccedil;&atilde;o Valore I/O (version in portuguese)</a></p>
+                </div>
+                <!-- End Disclaimer -->
+                <!-- Image Credits -->
+                <div class="col-sm-6 col-md-3 margin-bottom-30">
+                    <h3 class="margin-bottom-10">Image Credits</h3>
+                    <ul class="menu">
+                        <li><a href="http://www.valore.io">Valore I/O</a></li>
+                        <li><a href="https://www.unsplash.com" target="_blank">Unsplash</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- End Image Credits -->
+                <!-- Friends -->
+                <div class="col-sm-6 col-md-3 margin-bottom-30">
+                    <h3 class="margin-bottom-10">Downloads</h3>
+                    <ul class="menu">
+                        <li><a href="http://www.finep.gov.br/images/apoio-e-financiamento/manualoslo.pdf" target="_blank">Manual de Oslo</a></li>
+                        <li><a href="http://www2.camara.leg.br/camaranoticias/tv/materias/DOCUMENTARIOS/197839-TRIBUTO-ORIGEM-E-DESTINO.html" target="_blank">Tributo: Origem e Destino</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- End Friends -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer" class="background-dark text-light">
+        <div class="container no-padding">
+           <div class="row">
+              <!-- Footer Menu -->
+              <div id="footermenu" class="col-md-8">
+                  <ul class="list-unstyled list-inline">
+                      <li><a href="http://www.valore.io/admin" target="_blank">Admin</a></li>
+                  </ul>
+              </div>
+              <!-- End Footer Menu -->
+              <!-- Copyright -->
+              <div id="copyright" class="col-md-4">
+              <p class="pull-right">(c) 2015-2020 Valore I/O, Sao Paulo/BR, v.5 with AWS&GCP, Nginx, Emperor, uWSGI, Postfix, Dovecot, Python3, Django2.2.9, PostgreSQL and SQLite, Celery, RabbitMQ, Redis</p>
+              </div>
+              <!-- End Copyright -->
+           </div>
+        </div>
+        <!-- End Footer -->
+
+        <!-- JS -->
+        <script type="text/javascript" src="{% static "assets/js/jquery.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "assets/js/bootstrap.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "assets/js/scripts.js" %}"></script>
+        <script type="text/javascript" src="{% static "assets/js/custom.js" %}"></script>
+        <!-- Isotope - Portfolio Sorting -->
+        <script type="text/javascript" src="{% static "assets/js/jquery.isotope.js" %}"></script>
+        <!-- Mobile Menu - Slicknav -->
+        <script type="text/javascript" src="{% static "assets/js/jquery.slicknav.js" %}"></script>
+        <!-- Animate on Scroll-->
+        <script type="text/javascript" src="{% static "assets/js/jquery.visible.js" %}"></script>
+        <!-- Stellar Parallax -->
+        <script type="text/javascript" src="{% static "assets/js/jquery.stellar.js" %}"></script>
+        <!-- Sticky Div -->
+        <script type="text/javascript" src="{% static "assets/js/jquery.sticky.js" %}"></script>
+        <!-- Slimbox2-->
+        <script type="text/javascript" src="{% static "assets/js/slimbox2.js" %}" charset="utf-8"></script>
+        <!-- Modernizr -->
+        <script src="{% static "assets/js/modernizr.custom.js" %}" type="text/javascript"></script>
+        <!-- End JS -->
+
+        <!--Start of Google Analytics-->	    
+        <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-75476976-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+        <!--End of Google Analytics-->
+
+        <!-- Start - Avoid Spam Bot function -->
+        <script type="text/javascript">
+        function AvoidSpamBot() {
+            // The field has a value then it's a spam bot
+            if(document.getElementById("SpamBotField").value) { 
+               return false;
+            } 
+            // The field is empty then submit the form
+            else {
+                  return true;
+            }
+        }
+        </script>
+        <!-- End - Avoid Spam Bot function -->
+
+        <!--Start of Tawk.to Script -->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/585bbd64651e34097ac7c93c/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!-- End of Tawk.to Script-->
+
+        <!--Start of Textarea Character Count Script-->
+        <script type="text/javascript">
+        function JSmensagemcounter() {
+            document.getElementById('mensagemcounterfirst').innerHTML = document.getElementById('id_mensagem').value.length;
+            document.getElementById('mensagemcounterfinal').innerHTML = (300 - document.getElementById('id_mensagem').value.length);
+        }
+        JSmensagemcounter();
+        </script>
+        <!--End of Textarea Character Count Script-->
+
+        <!--Start of Go to Top-->
+        <script type="text/javascript">
+        var scrolltotop = {
+            setting: {
+                startline: 100,
+                scrollto: 0,
+                scrollduration: 1e3,
+                fadeduration: [500, 100]
+            },
+            controlHTML: '<img src="http://i1155.photobucket.com/albums/p559/scrolltotop/arrow66.png" />',
+            controlattrs: {
+                offsetx: 5,
+                offsety: 5
+            },
+            anchorkeyword: "#top",
+            state: {
+                isvisible: !1,
+                shouldvisible: !1
+            },
+            scrollup: function() {
+                this.cssfixedsupport || this.$control.css({
+                    opacity: 0
+                });
+                var t = isNaN(this.setting.scrollto) ? this.setting.scrollto : parseInt(this.setting.scrollto);
+                t = "string" == typeof t && 1 == jQuery("#" + t).length ? jQuery("#" + t).offset().top : 0, this.$body.animate({
+                    scrollTop: t
+                }, this.setting.scrollduration)
+            },
+            keepfixed: function() {
+                var t = jQuery(window),
+                    o = t.scrollLeft() + t.width() - this.$control.width() - this.controlattrs.offsetx,
+                    s = t.scrollTop() + t.height() - this.$control.height() - this.controlattrs.offsety;
+                this.$control.css({
+                    left: o + "px",
+                    top: s + "px"
+                })
+            },
+            togglecontrol: function() {
+                var t = jQuery(window).scrollTop();
+                this.cssfixedsupport || this.keepfixed(), this.state.shouldvisible = t >= this.setting.startline ? !0 : !1, this.state.shouldvisible && !this.state.isvisible ? (this.$control.stop().animate({
+                   opacity: 1
+                }, this.setting.fadeduration[0]), this.state.isvisible = !0) : 0 == this.state.shouldvisible && this.state.isvisible && (this.$control.stop().animate({
+                    opacity: 0
+                }, this.setting.fadeduration[1]), this.state.isvisible = !1)
+            },
+            init: function() {
+                jQuery(document).ready(function(t) {
+                    var o = scrolltotop,
+                        s = document.all;
+                        o.cssfixedsupport = !s || s && "CSS1Compat" == document.compatMode && window.XMLHttpRequest, o.$body = t(window.opera ? "CSS1Compat" == document.compatMode ? "html" : "body" : "html,body"), o.$control = t('<div id="topcontrol">' + o.controlHTML + "</div>").css({
+                        position: o.cssfixedsupport ? "fixed" : "absolute",
+                        bottom: o.controlattrs.offsety,
+                        right: o.controlattrs.offsetx,
+                        opacity: 0,
+                        cursor: "pointer"
+                    }).attr({
+                        title: "Scroll to Top"
+                    }).click(function() {
+                        return o.scrollup(), !1
+                    }).appendTo("body"), document.all && !window.XMLHttpRequest && "" != o.$control.text() && o.$control.css({
+                        width: o.$control.width()
+                    }), o.togglecontrol(), t('a[href="' + o.anchorkeyword + '"]').click(function() {
+                        return o.scrollup(), !1
+                    }), t(window).bind("scroll resize", function(t) {
+                        o.togglecontrol()
+                    })
+                })
+            }
+        };
+        scrolltotop.init();
+        </script>
+        <!--End of Go to Top-->
+    </div>
+</body>
+</html>
