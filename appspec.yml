@@ -3,21 +3,3 @@ os: linux
 files:
   - source: /
     destination: /var/www/django/contatoproj
-hooks:
-  BeforeInstall:
-    - location:
-      timeout: 300
-      runas: root
-  AfterInstall:
-    - location:
-      timeout: 300
-      runas: root
-  ApplicationStart:
-    - location:
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location:
-      timeout: 300
-      runas: root
-
