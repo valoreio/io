@@ -2,5 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/django/contatoproj
+    destination: /var/www/django/contatoproj/templates/index.html
+hooks:
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
+      runas: root
 
