@@ -4,5 +4,6 @@ if [[ "$UID" –ne "$ROOT_UID" ]] ; then
     exit $E_NOTROOT
 else
     rm /var/www/django/contatoproj/templates/index.html
+    exit 0
 fi
 
