@@ -1,5 +1,5 @@
 #!/bin/bash
-# if [[ "$UID" –ne "$ROOT_UID" ]] ; then
+#if [[ "$UID" –ne 0 ]] ; then
 #    echo "It must be root to run this bash script."
 #    exit 1
 #else
