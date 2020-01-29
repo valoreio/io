@@ -3,9 +3,15 @@ os: linux
 files:
   - source: index.html
     destination: /var/www/django/contatoproj/templates
+    owner: admweb
+permissions:
+  - object: /var/www/django/contatoproj/templates
+    pattern: "**"
+    owner: admweb
+    group: admweb
+    mode: 755
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
-      runas: root
-
+      runas: amdweb
