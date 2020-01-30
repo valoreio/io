@@ -10,6 +10,8 @@ permissions:
     owner: admweb
     group: admweb
     mode: 755
+    type:
+      - file
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
