@@ -11,7 +11,7 @@ cloud-init==19.3
 command-not-found==0.3
 configobj==5.0.6
 cryptography==3.2
-Django==2.2.13
+Django==2.2.18
 fail2ban==0.9.3
 flower==0.9.3
 get==2019.4.13
